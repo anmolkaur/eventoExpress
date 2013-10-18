@@ -1,0 +1,10 @@
+{
+  "name": "name",
+  "description": "description",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mime": "1.2.9",
+    "express": "~3.4.1"
+  }
+}
