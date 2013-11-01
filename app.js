@@ -1,5 +1,10 @@
 var express = require('express');
+var notes = require('./models/note.js');
 var app = express();
+
+
+notes.newEntry();
+
 
 app.use(express.bodyParser());
 
